@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: rgba(43, 46, 74, 1);
+    --cor-secundaria: rgba(232, 69, 69, 1);
+    --cor-terciaria: rgba(144, 55, 73, 1);
+    --cor-quartearia: rgba(83, 53, 74, 1);
+}
+
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+
+header {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100% auto;
+    height: 190px auto;
+    padding: 10px 0;
+    margin-bottom: 23px;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding: 0 15px 5px;
+
+}
+
+ul.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    padding-bottom: 5px;
+}
+
+li a {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.menu li a:hover {
+    color: var(--cor-terciaria)
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    width: 100% auto;
+    height: 70vh auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about,
+.contact,
+.term-of-use,
+.copyright {
+    width: 30vh;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+footer h4, p{
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+    margin: 5px;
+
+}
+
+.copy{
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+
+}
+
+.primary {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.new-nr {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    width: 510px;
+    height: 270px;
+    border-radius: 10px;
+    background-image: url(https://www.einerd.com.br/wp-content/uploads/2024/03/palworld-768x402.jpg);
+    background-size: cover;
+
+
+}
+
+
+.new-mr {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    width: 510px;
+    height: 270px;
+    border-radius: 10px;
+    background-image: url(https://www.einerd.com.br/wp-content/uploads/2019/06/x-men-s%C3%A9rie-animada-e1560171765416-768x400.jpg);
+    background-size: cover;
+}
+
+.new-nr>a,
+.new-mr>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.66);
+}
+
+.new-mr:hover,
+.new-nr:hover,
+.pr:hover,
+.sr:hover,
+.tr:hover {
+    transform: scale(1.1);
+}
+
+
+.new-tri {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 0;
+
+}
+
+.pr>a,
+.sr>a,
+.tr>a {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.66);
+    margin: 5px;
+    text-align: left;
+}
+
+
+
+.pr {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.einerd.com.br/wp-content/uploads/2024/02/chatbot-inteligencia-artificial-768x402.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.sr {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/geforce-rtx-4070/geforce-rtx-4070-newsfeed.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.tr {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.einerd.com.br/wp-content/uploads/2022/11/pokemon-ash-768x402.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+

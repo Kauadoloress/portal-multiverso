@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: rgba(43, 46, 74, 1);
+    --cor-secundaria: rgba(232, 69, 69, 1);
+    --cor-terciaria: rgba(144, 55, 73, 1);
+    --cor-quartearia: rgba(83, 53, 74, 1);
+}
+
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+
+header {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100% auto;
+    height: 190px auto;
+    padding: 10px 0;
+    margin-bottom: 23px;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding: 0 15px 5px;
+
+}
+
+ul.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    padding-bottom: 5px;
+}
+
+li a {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.menu li a:hover {
+    color: var(--cor-terciaria)
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    width: 100% auto;
+    height: 70vh auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about,
+.contact,
+.term-of-use,
+.copyright {
+    width: 30vh;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+
+footer h4,
+p.conteudo{
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+    margin: 5px;
+
+}
+
+
+
+.copy {
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 800px;
+}
+
+div.mainn>h1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+main>.main2>p {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0 20px 5px;
+    padding: 5px;
+    color: white;
+    text-align: justify;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+div.subtitle {
+    display: flex;
+    align-self: center;
+    padding: 5px;
+    margin: 0 20px 10px;
+
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+
+}
